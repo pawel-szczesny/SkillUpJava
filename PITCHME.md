@@ -1,27 +1,16 @@
-# Black
+# Java
 
-### A GitPitch Presentation Template
-
----
-
-## Tips!
-
-<br>
-
-@fa[arrows gp-tip](Press F to go Fullscreen)
-
-@fa[microphone gp-tip](Press S for Speaker Notes)
+### SkillUp
 
 ---
 
-## Template Features
+## Agenda
 
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
+- Obsługa wyjątków Exceptions (try catch) |
+- Debugowanie kodu (Eclipse) |
+- Praca ze Stringami |
+- Wyrażenia regularne |
+- Czysty kod (Clean code) |
 
 ---?code=sample/go/server.go&lang=golang&title=Golang File
 
