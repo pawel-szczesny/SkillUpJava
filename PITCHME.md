@@ -1,61 +1,29 @@
-# Black
+# SkillUp
 
-### A GitPitch Presentation Template
-
----
-
-## Tips!
-
-<br>
-
-@fa[arrows gp-tip](Press F to go Fullscreen)
-
-@fa[microphone gp-tip](Press S for Speaker Notes)
+### Java
 
 ---
 
-## Template Features
+## Agenda
 
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
+- Obsługa wyjątków Exceptions (try catch) |
+- Debugowanie kodu (Eclipse) |
+- Praca ze Stringami |
+- Wyrażenia regularne |
+- Czysty kod |
 
----?code=sample/go/server.go&lang=golang&title=Golang File
+@title[Obsługa wyjątków]
 
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
+<p><span class="slide-title">Obsługa wyjątków</span></p>
 
----
-
-@title[JavaScript Block]
-
-<p><span class="slide-title">JavaScript Block</span></p>
-
-```javascript
-// Include http module.
-var http = require("http");
-
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
+```java
+try {
+  // Kod który potencjalnie może wyrzucić wyjątek
+} catch (Exception e) {
+  // Co zrobić jeżeli ten wyjątek wystąpi
+} finally {
+  // Ten blok wykona się zawsze, niezależnie od tego czy wystąpi wyjątek czy nie
+}
 ```
 
 @[1,2](You can present code inlined within your slide markdown too.)
