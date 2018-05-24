@@ -12,8 +12,9 @@
 - Wyrażenia regularne |
 - Czysty kod |
 
-@title[Obsługa wyjątków]
+---
 
+@title[Obsługa wyjątków]
 <p><span class="slide-title">Obsługa wyjątków</span></p>
 
 ```java
@@ -25,6 +26,8 @@ try {
   // Ten blok wykona się zawsze, niezależnie od tego czy wystąpi wyjątek czy nie
 }
 ```
+
+---
 
 @[1,2](You can present code inlined within your slide markdown too.)
 @[9-17](Displayed using code-syntax highlighting just like your IDE.)
