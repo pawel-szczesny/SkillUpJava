@@ -23,7 +23,8 @@ try {
 } catch (Exception e) {
   // Co zrobić jeżeli ten wyjątek wystąpi
 } finally {
-  // Ten blok wykona się zawsze, niezależnie od tego czy wystąpi wyjątek czy nie
+  // Ten blok wykona się zawsze, 
+  // niezależnie od tego czy wystąpi wyjątek czy nie
 }
 ```
 
