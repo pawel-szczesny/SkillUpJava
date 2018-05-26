@@ -13,8 +13,6 @@
 - Czysty kod |
 
 ---
-
-@title[Obsługa wyjątków]
 <p><span class="slide-title">Obsługa wyjątków</span></p>
 
 ```java
@@ -29,16 +27,10 @@ try {
 ```
 
 ---
+<p><span class="slide-title">Wyświetlanie informacji na temat złapanego wyjątku:</span></p>
 
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
-
----?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=scala&title=Scala GIST
-
-@[23](You can even present code found within any GitHub GIST.)
-@[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](And code-presenting works seamlessly for GIST too, both online and offline.)
+- e.getMessage() - krótka informacja na temat wyrzuconego wyjątku
+- e.printStackTrace() - dokładniejsza informacja: Jaki wyjątek, krótka informacja i tzw. StackTrace (czyli informacja gdzie wyjątek został wyrzucony)
 
 ---
 
