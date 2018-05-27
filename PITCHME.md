@@ -32,7 +32,9 @@ try {
 - e.getMessage() - krótka informacja na temat wyrzuconego wyjątku
 - e.printStackTrace() - dokładniejsza informacja: Jaki wyjątek, krótka informacja i tzw. StackTrace (czyli informacja gdzie wyjątek został wyrzucony)
 
----
+---?image=assets/image/Exception_Classes.png&opacity=100
+
+
 
 ## Template Help
 
