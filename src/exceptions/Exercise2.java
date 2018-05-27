@@ -2,9 +2,9 @@ package exceptions;
 
 import java.util.Random;
 
-public class ExerciseTwo {
+public class Exercise2 {
 	public static void main(String[] args) {
-		ExerciseTwo exTwo = new ExerciseTwo();
+		Exercise2 exTwo = new Exercise2();
 		
 		exTwo.randomException();		
 	}

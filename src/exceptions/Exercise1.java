@@ -1,8 +1,8 @@
 package exceptions;
 
-public class ExerciseOne {
+public class Exercise1 {
 	public static void main(String[] args) {
-		ExerciseOne exOne = new ExerciseOne();
+		Exercise1 exOne = new Exercise1();
 		
 		exOne.firstException();
 		

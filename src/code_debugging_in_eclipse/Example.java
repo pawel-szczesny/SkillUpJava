@@ -1,10 +1,16 @@
 package code_debugging_in_eclipse;
 
+import java.util.Random;
+
 public class Example {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Random rand = new Random(); 
+		for (int i=0;i<10;i++) {
+			System.out.println(i);
+			int n = rand.nextInt(1000);
+			System.out.println(i+n);
+		}
 	}
 
 }
